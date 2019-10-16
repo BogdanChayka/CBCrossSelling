@@ -1,0 +1,18 @@
+{
+  "name": "swag/cb-cross-selling",
+  "description": "Cross Selling plugin based on Vuejs and custom fields",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "CBCrossSelling\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "CBCrossSelling\\CBCrossSelling",
+    "label": {
+      "de-DE": "Cross Selling plugin",
+      "en-GB": "Cross Selling plugin"
+    }
+  }
+}
